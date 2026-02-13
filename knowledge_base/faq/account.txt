@@ -1,0 +1,104 @@
+Frequently Asked Questions - Account Management
+
+Q: How do I create an account?
+A: Creating an account is easy:
+1. Go to cloudsupportpro.com
+2. Click "Start Free Trial"
+3. Enter your email and create a password
+4. Verify your email address
+5. Complete the setup wizard
+6. Invite your team members
+
+Q: How do I reset my password?
+A: If you forgot your password:
+1. Go to the login page
+2. Click "Forgot Password?"
+3. Enter your email address
+4. Check your email for a reset link
+5. Click the link and create a new password
+
+The reset link is valid for 24 hours.
+
+Q: Can I have multiple accounts?
+A: Each email address can only be associated with one account. However, you can be an agent on multiple company accounts if invited by different organizations.
+
+Q: How do I add team members?
+A: To add agents to your account:
+1. Go to Settings > Team
+2. Click "Invite Agent"
+3. Enter their email address
+4. Select their role (Admin, Agent, or Viewer)
+5. Choose which teams they should join
+6. Click "Send Invitation"
+
+They'll receive an email to create their account.
+
+Q: What are the different user roles?
+A: We have four user roles:
+
+Owner - Full access to everything including billing
+Admin - Manage agents, settings, and integrations (no billing access)
+Agent - Handle tickets, access reports, manage own settings
+Viewer - Read-only access to tickets and reports
+
+Q: How do I cancel my account?
+A: We're sorry to see you go! To cancel:
+1. Log in as the account owner
+2. Go to Settings > Billing
+3. Click "Cancel Subscription"
+4. Select a reason (optional)
+5. Confirm cancellation
+6. Export your data if needed
+
+Your account remains active until the end of your billing period.
+
+Q: Can I reactivate a canceled account?
+A: Yes! If you canceled within the last 90 days:
+1. Log in with your original credentials
+2. Go to Settings > Billing
+3. Click "Reactivate Account"
+4. Select a plan and enter payment information
+
+All your data will be restored.
+
+Q: How do I change my account email?
+A: Only the account owner can change the primary email:
+1. Go to Settings > Account
+2. Click "Change Email"
+3. Enter your new email address
+4. Verify the new email
+5. Confirm the change
+
+Q: What is two-factor authentication (2FA)?
+A: 2FA adds an extra layer of security to your account. When enabled, you'll need both your password and a code from your phone to log in. We support:
+- SMS codes
+- Authenticator apps (Google Authenticator, Authy)
+- Backup codes
+
+Enable 2FA in Settings > Security.
+
+Q: Can I transfer account ownership?
+A: Yes! The current owner can transfer ownership:
+1. Go to Settings > Team
+2. Find the agent you want to make owner
+3. Click the three-dot menu
+4. Select "Transfer Ownership"
+5. Confirm the transfer
+
+The new owner must be an existing Admin on the account.
+
+Q: How do I update my billing information?
+A: To update payment methods:
+1. Go to Settings > Billing
+2. Click "Payment Methods"
+3. Add a new card or update existing one
+4. Set as default if desired
+5. Remove old payment methods if needed
+
+Q: What if my payment fails?
+A: If a payment fails:
+- We'll automatically retry 3 times over 10 days
+- You'll receive email notifications
+- Your account will remain active during this period
+- Update your payment method to avoid service interruption
+- After 10 days, your account will be suspended (data retained for 30 days)

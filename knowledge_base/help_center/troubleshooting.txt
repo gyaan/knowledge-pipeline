@@ -1,0 +1,216 @@
+Troubleshooting Common Issues
+
+CHAT WIDGET NOT APPEARING
+
+Possible causes:
+1. JavaScript snippet not properly installed
+2. JavaScript is disabled in browser
+3. Browser extensions blocking the widget
+4. Widget is hidden on mobile devices
+5. Chat is offline
+
+Solutions:
+- Verify the code snippet is placed before </body> tag
+- Check browser console for errors (F12 > Console)
+- Test in incognito mode to rule out extensions
+- Check Settings > Chat Widget > Display Rules
+- Verify chat is set to "Online" in Settings
+
+EMAILS NOT BEING RECEIVED AS TICKETS
+
+Possible causes:
+1. Email forwarding not configured correctly
+2. SPF/DKIM records not set up
+3. Emails going to spam
+4. Email alias not verified
+
+Solutions:
+- Double-check forwarding address in Settings > Email
+- Add SPF record: v=spf1 include:cloudsupportpro.com ~all
+- Check your spam folder
+- Verify email ownership by clicking verification link
+- Test with a manual email first
+
+SLOW DASHBOARD LOADING
+
+Possible causes:
+1. Large date range selected
+2. Too many dashboard widgets
+3. Browser cache needs clearing
+4. Internet connection issues
+
+Solutions:
+- Reduce date range to last 7 or 30 days
+- Remove unused widgets
+- Clear browser cache (Ctrl+Shift+Delete)
+- Try a different browser
+- Check your internet speed
+
+NOTIFICATIONS NOT WORKING
+
+Possible causes:
+1. Notifications disabled in settings
+2. Browser notifications blocked
+3. Email notifications going to spam
+4. Do Not Disturb mode enabled
+
+Solutions:
+- Check Settings > Notifications
+- Allow notifications in browser settings
+- Check spam folder and whitelist our emails
+- Disable Do Not Disturb in your profile
+- Test notifications with Settings > Notifications > Test
+
+UNABLE TO UPLOAD ATTACHMENTS
+
+Possible causes:
+1. File size too large (max 25MB)
+2. File type not allowed
+3. Browser storage quota exceeded
+4. Network timeout
+
+Solutions:
+- Compress files before uploading
+- Check allowed file types in Settings > Security
+- Clear browser cache and cookies
+- Try uploading via desktop app
+- Use file sharing link for large files
+
+INTEGRATION NOT SYNCING
+
+Possible causes:
+1. API credentials expired
+2. Rate limits exceeded
+3. Integration disconnected
+4. Permissions changed
+
+Solutions:
+- Reconnect the integration
+- Check API key validity
+- Wait if rate limited (resets hourly)
+- Verify permissions in connected app
+- Check integration logs in Settings > Integrations
+
+LOGIN ISSUES
+
+Possible causes:
+1. Incorrect password
+2. Account suspended
+3. Email not verified
+4. Caps Lock is on
+
+Solutions:
+- Use "Forgot Password" to reset
+- Check email for suspension notice
+- Verify email address
+- Check Caps Lock key
+- Try logging in from different device
+- Contact support if account is locked
+
+MOBILE APP CRASHES
+
+Possible causes:
+1. App needs updating
+2. Device storage full
+3. Corrupted cache
+4. OS compatibility issues
+
+Solutions:
+- Update to latest version
+- Free up device storage
+- Clear app cache and data
+- Restart device
+- Reinstall the app
+- Check minimum OS requirements
+
+API ERRORS
+
+Common error codes:
+
+401 Unauthorized:
+- Check API key is correct
+- Verify API key hasn't been revoked
+- Include "Authorization: Bearer" prefix
+
+403 Forbidden:
+- Check API key permissions
+- Verify plan includes API access
+- Check IP whitelist settings
+
+404 Not Found:
+- Verify endpoint URL is correct
+- Check resource ID exists
+- Ensure using correct API version
+
+429 Rate Limit:
+- Implement exponential backoff
+- Reduce request frequency
+- Upgrade plan for higher limits
+- Check rate limit headers
+
+500 Server Error:
+- Check API status page
+- Retry request after delay
+- Contact support if persists
+
+SEARCH NOT RETURNING RESULTS
+
+Possible causes:
+1. Search indexing in progress
+2. Incorrect search syntax
+3. Filters too restrictive
+4. Results in archived tickets
+
+Solutions:
+- Wait for indexing to complete (check Settings > Search)
+- Use simpler search terms
+- Remove some filters
+- Include archived tickets in search
+- Use advanced search operators
+
+REPORTS SHOWING INCORRECT DATA
+
+Possible causes:
+1. Wrong date range selected
+2. Filters applied
+3. Data syncing delay
+4. Time zone mismatch
+
+Solutions:
+- Verify date range
+- Clear all filters
+- Wait 10 minutes for data sync
+- Check time zone in Settings > Account
+- Export raw data to verify
+
+CHAT ROUTING NOT WORKING
+
+Possible causes:
+1. All agents offline
+2. Routing rules misconfigured
+3. Teams not set up correctly
+4. Agent skills not assigned
+
+Solutions:
+- Check agent status in Dashboard
+- Review routing rules in Settings > Chat > Routing
+- Verify team assignments
+- Assign skills to agents
+- Test routing with internal chat
+
+STILL NEED HELP?
+
+If you're still experiencing issues:
+1. Check our status page: status.cloudsupportpro.com
+2. Search our knowledge base
+3. Contact support:
+   - Live chat (fastest)
+   - Email: support@cloudsupportpro.com
+   - Phone: 1-800-SUPPORT (Business/Enterprise)
+
+Include in your support request:
+- Account email
+- Screenshot of error
+- Browser/device information
+- Steps to reproduce the issue
+- What you've already tried

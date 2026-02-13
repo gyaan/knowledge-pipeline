@@ -1,0 +1,69 @@
+CloudSupport Pro Integrations Guide
+
+CloudSupport Pro integrates with over 100 popular business tools to streamline your customer support workflow. Below is a guide to our most popular integrations.
+
+CRM Integrations
+
+Salesforce Integration
+Connect CloudSupport Pro to Salesforce to sync customer data, tickets, and interaction history. Once connected, agent profiles automatically display Salesforce contact records, account details, and opportunity information. To set up, navigate to Settings > Integrations > Salesforce, enter your Salesforce credentials, and select which objects to sync. Data syncs every 5 minutes by default.
+
+HubSpot Integration
+Link your HubSpot CRM to CloudSupport Pro for seamless contact management. Support tickets automatically create or update HubSpot contact records. Agents can view deal stages, lifecycle stages, and marketing engagement directly from the support dashboard. Setup requires a HubSpot API key from Settings > Integrations > HubSpot.
+
+E-Commerce Integrations
+
+Shopify Integration
+Connect your Shopify store to access order details, shipping status, and customer purchase history directly within support tickets. Agents can issue refunds, cancel orders, and update shipping information without leaving CloudSupport Pro. Requires Shopify admin API credentials.
+
+WooCommerce Integration
+Similar to Shopify, the WooCommerce integration provides order lookup, refund processing, and customer purchase history. Install the CloudSupport Pro plugin from the WordPress plugin directory, then enter the generated API key in Settings > Integrations > WooCommerce.
+
+Stripe Integration
+View payment history, subscription status, and invoice details for customers directly in the support interface. Agents can issue refunds and update subscription plans. Connect via Settings > Integrations > Stripe using your Stripe API key.
+
+Communication Integrations
+
+Slack Integration
+Receive real-time notifications for new tickets, escalations, and SLA breaches directly in your Slack channels. Agents can respond to tickets from Slack without switching tools. Supports both channel notifications and direct message alerts. Configure notification rules per channel in Settings > Integrations > Slack.
+
+Microsoft Teams Integration
+Similar to Slack, receive ticket notifications and respond directly from Microsoft Teams. Supports adaptive cards for rich ticket previews. Install the CloudSupport Pro app from the Teams app store and authenticate with your CloudSupport Pro account.
+
+Email Integrations
+
+Gmail Integration
+Connect Gmail accounts to automatically convert incoming emails into support tickets. Supports multiple Gmail accounts and custom routing rules. OAuth-based authentication ensures secure access without storing passwords.
+
+Microsoft Outlook Integration
+Connect Outlook mailboxes for automatic ticket creation from emails. Supports shared mailboxes for team-based support. Configure in Settings > Integrations > Outlook using Microsoft OAuth.
+
+Project Management Integrations
+
+Jira Integration
+Create Jira issues directly from support tickets for bug reports and feature requests. Ticket status updates automatically sync between CloudSupport Pro and Jira. Supports both Jira Cloud and Jira Server. Configure project mappings and issue type defaults in Settings > Integrations > Jira.
+
+Trello Integration
+Create Trello cards from support tickets and track progress across boards. Ideal for teams that use Trello for task management alongside customer support.
+
+Asana Integration
+Similar to Trello, create Asana tasks from tickets. Supports project selection, assignee mapping, and due date configuration.
+
+Analytics Integrations
+
+Google Analytics Integration
+Track support widget interactions and customer self-service usage in Google Analytics. Monitor which help articles reduce ticket volume and measure the impact of support on conversion rates.
+
+Custom Integrations via API
+CloudSupport Pro provides a comprehensive REST API for building custom integrations. The API supports webhooks for real-time event notifications, allowing you to connect with any system. See our API documentation for details on authentication, endpoints, and rate limits.
+
+Webhook Support
+Configure webhooks to receive HTTP POST notifications when events occur in CloudSupport Pro. Supported events include ticket creation, status changes, agent assignment, customer replies, and SLA breaches. Configure webhooks in Settings > Integrations > Webhooks.
+
+Setting Up Integrations
+1. Navigate to Settings > Integrations from the admin dashboard
+2. Select the integration you want to configure
+3. Follow the setup wizard to authenticate and configure options
+4. Test the integration using the built-in test function
+5. Enable the integration when ready
+
+All integrations can be enabled, disabled, or reconfigured at any time without data loss. Integration logs are available in Settings > Integrations > Logs for troubleshooting connection issues.

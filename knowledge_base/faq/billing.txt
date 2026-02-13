@@ -1,0 +1,65 @@
+Frequently Asked Questions - Billing and Pricing
+
+Q: What are your pricing plans?
+A: We offer four pricing tiers:
+
+Starter Plan - $29/month per agent
+- Email and chat support
+- Basic ticketing system
+- Standard integrations
+- Email support
+- Up to 3 agents
+
+Professional Plan - $59/month per agent
+- All Starter features
+- Social media integration
+- Advanced automation
+- Custom reporting
+- Priority support
+- Up to 25 agents
+
+Business Plan - $99/month per agent
+- All Professional features
+- Phone support integration
+- Advanced analytics
+- API access
+- Dedicated account manager
+- Up to 100 agents
+
+Enterprise Plan - Custom pricing
+- All Business features
+- Unlimited agents
+- White-label options
+- SLA guarantees
+- Custom integrations
+- 24/7 premium support
+
+Q: Is pricing per agent or per company?
+A: Pricing is per agent per month. An agent is any team member who logs into the platform to handle customer inquiries. You only pay for active agents.
+
+Q: Can I change plans anytime?
+A: Yes! You can upgrade or downgrade your plan at any time. When upgrading, you'll get immediate access to new features. When downgrading, changes take effect at the start of your next billing cycle, and you keep access to premium features until then.
+
+Q: Do you offer annual discounts?
+A: Yes! Save 20% when you pay annually instead of monthly. For example, the Professional plan is $47.20/month per agent when billed annually instead of $59/month when billed monthly.
+
+Q: What payment methods do you accept?
+A: We accept all major credit cards (Visa, Mastercard, American Express, Discover), PayPal, and ACH bank transfers for annual plans. Enterprise customers can also pay via invoice.
+
+Q: Is there a setup fee?
+A: No! There are no setup fees, hidden charges, or cancellation fees. You only pay for your monthly or annual subscription.
+
+Q: What happens if I go over my agent limit?
+A: If you exceed your plan's agent limit, we'll automatically upgrade you to the next tier or charge you for additional agents at your current plan rate. You'll receive a notification before any charges are applied.
+
+Q: Can I get a refund?
+A: We offer a 30-day money-back guarantee on all annual plans. If you're not satisfied within the first 30 days, we'll provide a full refund. Monthly plans are non-refundable but you can cancel anytime.
+
+Q: Do you offer non-profit or educational discounts?
+A: Yes! We offer 25% discounts for registered non-profit organizations and educational institutions. Contact our sales team with your documentation to verify eligibility.
+
+Q: What happens to my data if I cancel?
+A: You can export all your data (tickets, conversations, customer information, reports) before canceling. We retain your data for 90 days after cancellation in case you want to reactivate your account. After 90 days, all data is permanently deleted.
+
+Q: Are there any usage limits?
+A: Starter and Professional plans have reasonable fair-use limits on API calls and storage. Business and Enterprise plans have higher limits or can be customized. We'll notify you if you're approaching any limits.

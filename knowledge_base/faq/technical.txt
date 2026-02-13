@@ -1,0 +1,100 @@
+Frequently Asked Questions - Technical
+
+Q: What are the system requirements to use CloudSupport Pro?
+A: CloudSupport Pro is a cloud-based platform that works in any modern web browser. We recommend:
+- Chrome 90+, Firefox 88+, Safari 14+, or Edge 90+
+- Stable internet connection (minimum 5 Mbps)
+- JavaScript enabled
+- Cookies enabled for authentication
+
+For mobile: iOS 13+ or Android 8+
+
+Q: Is there a desktop or mobile app?
+A: Yes! We have native apps for:
+- Windows (Windows 10+)
+- macOS (macOS 11+)
+- iOS (iPhone and iPad)
+- Android
+
+All apps sync in real-time with the web platform.
+
+Q: How do I install the chat widget on my website?
+A: Installation is simple:
+1. Log into CloudSupport Pro
+2. Go to Settings > Chat Widget
+3. Copy the JavaScript code snippet
+4. Paste it before the closing </body> tag on your website
+5. The widget will appear automatically
+
+We also have plugins for WordPress, Shopify, Wix, Squarespace, and other platforms.
+
+Q: Can I use CloudSupport Pro on multiple websites?
+A: Yes! You can install the chat widget on unlimited websites and domains. Each website can have customized settings and routing rules.
+
+Q: What APIs are available?
+A: We provide comprehensive REST APIs for:
+- Ticket management (create, update, retrieve, delete)
+- Customer data management
+- Agent management
+- Reporting and analytics
+- Webhooks for real-time events
+- Chat transcripts
+- Knowledge base articles
+
+Full API documentation is available at docs.cloudsupportpro.com/api
+
+Q: How does the AI automation work?
+A: Our AI can:
+- Auto-categorize and prioritize tickets
+- Suggest responses based on similar past tickets
+- Auto-respond to common questions using your knowledge base
+- Route tickets to the right agent based on skills and availability
+- Detect customer sentiment and escalate urgent issues
+- Translate messages in real-time
+
+The AI learns from your data and improves over time.
+
+Q: What is the uptime guarantee?
+A: We guarantee 99.9% uptime on all paid plans. Enterprise plans come with 99.99% SLA. We have redundant servers across multiple geographic regions and perform regular backups. Current status is always available at status.cloudsupportpro.com
+
+Q: How do webhooks work?
+A: Webhooks allow real-time notifications to your systems when events occur. You can configure webhooks for:
+- New ticket created
+- Ticket updated
+- Ticket resolved
+- New message received
+- Customer rating submitted
+- Agent assigned
+
+Configure webhooks in Settings > Integrations > Webhooks
+
+Q: Can I export my data?
+A: Yes! You can export:
+- Tickets (CSV, JSON, XML)
+- Customer data (CSV, JSON)
+- Chat transcripts (PDF, TXT)
+- Reports (PDF, CSV, Excel)
+- Call recordings (MP3)
+
+Exports can be scheduled automatically or run on-demand.
+
+Q: Is there an API rate limit?
+A: API rate limits depend on your plan:
+- Starter: 1,000 requests/hour
+- Professional: 5,000 requests/hour
+- Business: 20,000 requests/hour
+- Enterprise: Custom limits
+
+Rate limit information is included in API response headers.
+
+Q: Do you offer sandbox/testing environments?
+A: Yes! Business and Enterprise plans include separate staging environments where you can test integrations, workflows, and automations without affecting production data.
+
+Q: What browsers are officially supported?
+A: We officially support the latest two versions of:
+- Google Chrome
+- Mozilla Firefox
+- Safari (macOS and iOS)
+- Microsoft Edge
+
+Internet Explorer is not supported.
