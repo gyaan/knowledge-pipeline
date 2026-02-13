@@ -1,0 +1,103 @@
+CloudSupport Pro Tutorials
+
+Step-by-step tutorials to help you master CloudSupport Pro features.
+
+Tutorial 1: Setting Up Your First Support Channel
+
+In this tutorial, you will configure email as your first support channel.
+
+Step 1: Navigate to Settings > Channels > Email from your admin dashboard.
+Step 2: Click "Add Email Channel" and enter your support email address (e.g., support@yourcompany.com).
+Step 3: Choose your connection method. For Gmail, use OAuth authentication. For other providers, enter IMAP/SMTP settings.
+Step 4: Configure routing rules. Choose which team or agent should receive tickets from this channel.
+Step 5: Set up an auto-reply template that customers receive when their email is converted to a ticket.
+Step 6: Send a test email to verify everything works correctly.
+Step 7: Enable the channel when you are satisfied with the configuration.
+
+Your email channel is now live. All incoming emails will automatically create support tickets.
+
+Tutorial 2: Creating Your First Automation Rule
+
+Automations save time by handling repetitive tasks automatically.
+
+Step 1: Go to Settings > Automations > Create New Rule.
+Step 2: Name your automation (e.g., "Auto-assign billing tickets").
+Step 3: Define the trigger condition. Select "When a ticket is created" and add a condition: "Category equals Billing."
+Step 4: Define the action. Select "Assign to team" and choose your billing support team.
+Step 5: Optionally add additional actions like setting priority, adding tags, or sending notifications.
+Step 6: Set the rule priority. Rules with lower numbers execute first.
+Step 7: Click "Test Rule" to preview which existing tickets would match.
+Step 8: Enable the automation.
+
+The automation will now run on all new tickets matching your conditions.
+
+Tutorial 3: Installing the Live Chat Widget
+
+Add live chat to your website to provide real-time support.
+
+Step 1: Go to Settings > Channels > Live Chat.
+Step 2: Customize the widget appearance. Choose colors, position (bottom-right or bottom-left), and welcome message.
+Step 3: Configure business hours. Set when live chat is available and what message to show outside hours.
+Step 4: Copy the JavaScript snippet provided.
+Step 5: Paste the snippet into your website's HTML, just before the closing body tag.
+Step 6: Visit your website and verify the chat widget appears.
+Step 7: Test by sending a message through the widget and confirming it appears in your CloudSupport Pro dashboard.
+
+For single-page applications (React, Vue, Angular), you can also install the widget via npm package @cloudsupportpro/chat-widget.
+
+Tutorial 4: Building a Knowledge Base
+
+A knowledge base helps customers find answers without contacting support.
+
+Step 1: Navigate to Knowledge Base > Articles from your dashboard.
+Step 2: Create categories to organize your content (e.g., Getting Started, Billing, Troubleshooting).
+Step 3: Click "New Article" and select a category.
+Step 4: Write your article using the rich text editor. Include a clear title, introduction, step-by-step instructions, and related links.
+Step 5: Add tags to improve search discoverability.
+Step 6: Preview the article to check formatting.
+Step 7: Publish the article. It will be immediately available in your customer-facing help center.
+Step 8: Share the article URL in canned responses to efficiently answer common questions.
+
+Tip: Start with articles for your top 10 most common support questions. This alone can reduce ticket volume by 20-30%.
+
+Tutorial 5: Setting Up SLA Policies
+
+SLA policies ensure timely responses and resolutions.
+
+Step 1: Go to Settings > SLA Policies > Create New Policy.
+Step 2: Name your policy (e.g., "Premium Customer SLA").
+Step 3: Define conditions for when this policy applies. For example, customer plan equals "Enterprise" or priority equals "Critical."
+Step 4: Set first response time targets (e.g., 1 hour for critical, 4 hours for high, 8 hours for medium).
+Step 5: Set resolution time targets (e.g., 4 hours for critical, 24 hours for high, 72 hours for medium).
+Step 6: Configure escalation actions for approaching and breached SLAs.
+Step 7: Set business hours for SLA calculation (or choose 24/7 for critical SLAs).
+Step 8: Save and enable the policy.
+
+SLA timers will now appear on applicable tickets, helping agents prioritize their work.
+
+Tutorial 6: Generating Reports
+
+Use reports to understand your support performance.
+
+Step 1: Navigate to Analytics > Reports from your dashboard.
+Step 2: Select a report type: Ticket Volume, Response Times, Agent Performance, or Customer Satisfaction.
+Step 3: Set the date range for your report.
+Step 4: Apply filters to focus on specific teams, channels, or categories.
+Step 5: Review the generated charts and tables.
+Step 6: Click "Export" to download the report as CSV or PDF.
+Step 7: Schedule recurring reports by clicking "Schedule" and selecting frequency and recipients.
+
+Tip: Set up a weekly summary report delivered to your email every Monday morning for a quick overview of the previous week's support performance.
+
+Tutorial 7: Configuring Agent Roles and Permissions
+
+Control what each team member can see and do.
+
+Step 1: Go to Settings > Team > Roles.
+Step 2: Review the default roles (Owner, Admin, Agent, Viewer) and their permissions.
+Step 3: To create a custom role, click "New Role" and name it (e.g., "Senior Agent").
+Step 4: Select permissions for the role. Permissions are grouped by area: Tickets, Knowledge Base, Reporting, Settings, and Integrations.
+Step 5: Save the custom role.
+Step 6: Assign the role to team members in Settings > Team > Members by editing their profile and selecting the new role.
+
+Custom roles allow you to give team leads additional permissions like managing canned responses or viewing reports without full admin access.
