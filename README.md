@@ -1,5 +1,10 @@
 # Customer Support RAG
 
+[![CI](https://github.com/gyaan/knowledge-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/gyaan/knowledge-pipeline/actions/workflows/ci.yml)
+[![Go](https://img.shields.io/badge/Go-1.25%2B-00ADD8?logo=go)](https://go.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Zero dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)](go.mod)
+
 A production-ready Retrieval-Augmented Generation (RAG) system built in pure Go. It serves API endpoints for a frontend to answer customer queries using a knowledge base of FAQs, product docs, and help center articles as context.
 
 ## Features
@@ -124,6 +129,14 @@ go test ./...                   # Run all tests
 go vet ./...                    # Static analysis
 go run cmd/ingest/main.go       # Dry-run ingestion (no LLM needed)
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Bug reports and feature requests go through the [issue tracker](https://github.com/gyaan/knowledge-pipeline/issues/new/choose).
+
+## Security
+
+See [SECURITY.md](SECURITY.md) for the vulnerability disclosure policy and security considerations for self-hosted deployments.
 
 ## License
 
